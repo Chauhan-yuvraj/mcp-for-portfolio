@@ -44,8 +44,8 @@ graph TD
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/my-portfolio-ai-backend.git
-cd my-portfolio-ai-backend
+git clone https://github.com/Chauhan-yuvraj/mcp-for-portfolio.git
+cd mcp-for-portfolio
 ```
 
 ### 3. Install Dependencies

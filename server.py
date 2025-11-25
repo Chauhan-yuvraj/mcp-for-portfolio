@@ -9,10 +9,10 @@ load_dotenv()
 mcp = FastMCP("Yuvraj-Portfolio-Server")
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-GITHUB_USERNAME = "chauhan-yuvraj"
+GITHUB_USERNAME = os.getenv("GITHUB_USERNAME")
 
-DEV_TO_USER = "uvizhere"
-DEV_TO_URL = f"https://dev.to/{DEV_TO_USER}"
+DEV_TO_USER = os.getenv("DEV_TO_USER")
+DEV_TO_URL = f"https://dev.to/api/articles?username={DEV_TO_USER}"
 PROFILE_PATH = "my_profile.txt"
 
 
